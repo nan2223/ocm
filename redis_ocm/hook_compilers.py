@@ -1,5 +1,5 @@
+from redis_ocm.utils import *
 compiler_module_cache=None
-REDIS_QUERY_COMPILER_MODULE="redis_ocm.dj_compiler"
 old_compiler_fn_ref={} #old ops.compiler fn
 compiler_obj_map={} #{new_compiler_obj:old_compiler_obj
 def enable_cache(self):

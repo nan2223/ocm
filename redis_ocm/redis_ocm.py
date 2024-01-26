@@ -1,3 +1,4 @@
+import redis_ocm.utils
 #custom mgr,queryset
 #will try to add custom query to our qs
 from django.db import models
